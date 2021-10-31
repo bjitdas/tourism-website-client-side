@@ -1,0 +1,23 @@
+[
+    {
+        "id": 101,
+        "name": "Bali-Indonesia",
+        "img": "https://i.ibb.co/GFQwzL0/bali.jpg",
+        "description": "Bali is a province of Indonesia and the westernmost of the Lesser Sunda Islands. East of Java and west of Lombok, the province includes the island of Bali"
+    },
+    {
+        "id": 102,
+        "name": "Thailand-Bangkok",
+        "img": "https://i.ibb.co/FVk6QbR/bangkok.webp",
+        "description": "Bangkok, Thailand’s capital, is a large city known for ornate shrines and vibrant street life. The boat-filled Chao Phraya River feeds its network of canals,"
+    },
+    {
+        "id": 103,
+        "name": "Paris-France",
+        "img": "https://i.ibb.co/xJXQdHY/France.jpg",
+        "description": "Paris, France's capital, is a major European city and a global center for art, fashion, gastronomy and culture. Its 19th-century cityscape is crisscrossed by wide"
+    }
+]
+
+
+
