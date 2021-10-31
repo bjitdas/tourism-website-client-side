@@ -11,19 +11,16 @@ const Booking = () => {
 
 
     useEffect(() => {
-        fetch(`http://localhost:5000/services/${serviceId}`)
+        fetch(`https://pacific-springs-80495.herokuapp.com/services/${serviceId}`)
             .then(res => res.json())
             .then(data => setService(data))
     }, [])
 
     const handlePlaceOrder = () => {
         service.user = user
-        // service.user = user.email
-        // service.user = user.displayName
-        // service.user = user.uid
 
 
-        axios.post('http://localhost:5000/orders', service)
+        axios.post('https://pacific-springs-80495.herokuapp.com/orders', service)
             .then(res => {
                 if (res.data.insertedId) {
                     alert('successfully placed order')

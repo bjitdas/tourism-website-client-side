@@ -32,7 +32,7 @@ const useFirebase = () => {
             setIsLoading(false);
         });
 
-        return () => unSubscribed
+        return () => unSubscribed;
     }, [])
 
 

@@ -2,8 +2,8 @@ import React from 'react';
 
 const Blog = () => {
     return (
-        <div className="m-5 border border-1 rounded">
-            <h1 className="text-danger pt-3 text-decoration-underline">Our Travelling Blogs</h1>
+        <div className="m-5 border border-2 border-dark rounded">
+            <h1 className="text-danger pt-3 text-decoration-underline"><span className="bg-light p-2">Our Travelling Blogs</span></h1>
             <div className="row row-cols-1 row-cols-md-3 g-4 m-3">
                 <div className="col">
                     <div className="card h-100 rounded">

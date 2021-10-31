@@ -13,8 +13,8 @@ const Services = () => {
 
 
     return (
-        <div className="m-3">
-            <h1 className="text-light mt-5 mb-4 fw-bold text-decoration-underline">Our Special Package Tour Offers</h1>
+        <div className="m-3 ">
+            <h1 className="text-light p-1 pb-2 bg-dark mt-5 mb-4 fw-bold text-decoration-underline">Our Special Package Tour Offers</h1>
             <Row xs={1} md={3} className="g-4">
                 {
                     services.map(service => <Service

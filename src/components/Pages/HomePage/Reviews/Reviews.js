@@ -7,7 +7,7 @@ import './Reviews.css'
 const Reviews = () => {
     return (
         <div className="review-container mx-auto">
-            <h2 className="text-danger m-5 fs-1 fw-bold text-decoration-underline">Respected Reviewers</h2>
+            <h2 className="text-danger my-5 fs-1 fw-bold text-decoration-underline"><span className="bg-light p-2">Respected Reviewers</span></h2>
             <Carousel>
                 <Carousel.Item>
                     <Card className="card">
